@@ -1,0 +1,51 @@
+.promtBtn {
+    background: linear-gradient(to right, #000000, #005cbf); /* Black to blue gradient */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth zoom and shadow */
+    border: 2px solid;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promtBtn:hover {
+    transform: scale(1.1); /* Zoom in */
+    background: linear-gradient(to right, #005cbf, #4a90e2); /* Reverse gradient on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .LoginBtn {
+    background: linear-gradient(to right, #000000, #005cbf); /* Black to blue gradient */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth zoom and shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .LoginBtn:hover {
+    transform: scale(1.1); /* Zoom in */
+    background: linear-gradient(to right, #005cbf, #1b508b); /* Reverse gradient on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .step-card {
+    border: 2px solid white;
+    box-shadow: 2px 2px 8px black;
+    background: linear-gradient(to right, #9fb8d8, rgb(0,122,255)); /* Black to blue gradient */
+    
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .step-card:hover {
+    transform: scale(1.05);
+  }
